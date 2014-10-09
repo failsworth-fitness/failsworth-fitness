@@ -152,7 +152,11 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+a.button-1:hover,
+a.button-2:hover,
+a.button-3:hover {
+ border-color: #F9731D !important;
+ }
 /* Colors
    ========================================================================== */
 .d-text-c.active,
@@ -2282,6 +2286,9 @@ footer .social {
 	}
 }
 @media (max-width: 991px) {
+	.site-logo {
+	display: none;
+	}
 	.place-info .place-info-box {
 		margin-bottom: 30px;
 		border-right: 0 solid #fff;
@@ -2353,7 +2360,7 @@ footer .social {
 		display: none;
 	}
 	.slide-text .button-1, .slide-text .button-2, .slide-text .button-3 {
-		margin-top: 10px !important;
+		margin-top: 10px;
 	}
 	.slider-info h3 {
 		margin-bottom: 5px;
