@@ -31,6 +31,17 @@
 
 /* Base
    ========================================================================== */
+.slide-wrapper {
+	height: 632px !important;
+}
+footer.home {
+	position: absolute;
+	right: 25px;
+	bottom: 0px;
+}
+body.homepage {
+	padding-top: 0px !important;
+}
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
 * {
@@ -64,7 +75,7 @@
 	width: auto;
 	padding: 10px;
 	position: absolute;
-	top: 60px;
+	top: 25px;
 	left: 25px;
 	z-index: 999;
 }
@@ -1400,6 +1411,8 @@ footer .social {
 }
 .slider {
 	position: relative;
+	max-height: 632px !important;
+	height:auto !important;
 }
 .slider .slider-arrows {
 	width: 100%;
@@ -2336,8 +2349,11 @@ footer .social {
 	.responsive-menu {
 		display: block;
 	}
-	.slide-text {
+	.slide-text h1 {
 		display: none;
+	}
+	.slide-text .button-1, .slide-text .button-2, .slide-text .button-3 {
+		margin-top: 10px !important;
 	}
 	.slider-info h3 {
 		margin-bottom: 5px;
@@ -2398,6 +2414,8 @@ footer .social {
 .button-2,
 .button-3 {
 	margin-bottom: 15px;
+	border-radius: 10px;
+	margin-top: 40px;
 }
 @media (max-width: 600px) {
 	.map-location .contact-form {

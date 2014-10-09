@@ -81,8 +81,8 @@
 				prev: '.prev',
 				container: $e,
 				autoplay: true,
-				autoplaySpeed: 4000,
-				autoplayResume: 4000,
+				autoplaySpeed: 2000,
+				autoplayResume: 2000,
 				bullets: '[data-tesla-plugin="bullets"]',
 				//active: 'active' //class for current slide - to be implemented
 
@@ -614,8 +614,8 @@
 				rotate: true,
 				autoplay: true,
 				hideEffect: true,
-				autoplaySpeed: 4000,
-				autoplayResume: 4000
+				autoplaySpeed: 1000,
+				autoplayResume: 1000
 
 			},options,{
 
