@@ -41,6 +41,7 @@ footer.home {
 }
 body.homepage {
 	padding-top: 0px !important;
+	background-color: #fff;
 }
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
@@ -93,7 +94,7 @@ body.homepage {
 }
 body {
     font-size: 13px;
-    background: #fff;
+    background: #FFF;
     color: #a3a2a2;
     line-height: 1.5em;
     font-weight: 400;
